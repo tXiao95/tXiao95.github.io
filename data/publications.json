@@ -53,7 +53,8 @@
     "authors": "Varghese JS, Hsiao TW, Fede L, Chizak C, Gocke C, Waller LA, Ali MK",
     "title": "National, State, and County Estimates of Adult Overweight and Obesity From Electronic Health Records and Kiosks in Retail Locations, 2024–2025",
     "venue": "Obesity, 34(4), 908–916",
-    "doi": "10.1002/oby.70141"
+    "doi": "10.1002/oby.70141",
+    "code": "https://github.com/chroniq-lab/kiosk_bmi"
   },
   {
     "id": "hsiao-2025-allocation",
