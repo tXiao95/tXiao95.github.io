@@ -8,7 +8,7 @@ The canonical address is **https://www.twhsiao.com**. The registered domain is `
 - Cloudflare contains four IPv4 records, four IPv6 records, the `www` CNAME, and GitHub's verification TXT record. Web records use DNS only and a 300-second TTL.
 - Repository Pages uses GitHub Actions and custom domain `www.twhsiao.com`.
 - Actions repository variable `SITE_PROFILE=domain` is saved.
-- HTTPS certificate issuance was pending at the time of this status entry. Confirm **Enforce HTTPS** after issuance and verify the public addresses below.
+- The initial GitHub Actions build and deployment completed successfully. The custom domain serves the website with a valid certificate, and **Enforce HTTPS** is enabled.
 
 The following steps document this configuration for maintenance or recovery. Check live settings first; do not duplicate existing records.
 
