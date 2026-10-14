@@ -1,0 +1,13 @@
+---
+title: Page not found
+description: "This page could not be found. Return to Thomas Hsiao’s homepage."
+include-before-body: _generated/header-404.html
+---
+
+::: {.page-intro}
+[404]{.eyebrow}
+
+# Page not found
+
+The address may have changed. [Return to the homepage](/) or [view my publications](/publications.html).
+:::

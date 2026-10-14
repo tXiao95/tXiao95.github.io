@@ -1,0 +1,193 @@
+[
+  {
+    "id": "li-2026-stillbirth",
+    "type": "peer-reviewed",
+    "year": 2026,
+    "sort_date": "2026-08",
+    "authors": "Li C, Hsiao TW, Warren JL, Darrow LA, Strickland MJ, Russell AG, Chang HH",
+    "title": "Maternal ambient air pollution exposure and risk of stillbirth in Georgia, USA",
+    "venue": "Environmental Epidemiology, 10(4), e505",
+    "doi": "10.1097/EE9.0000000000000505"
+  },
+  {
+    "id": "hsiao-2026-isiw",
+    "type": "peer-reviewed",
+    "year": 2026,
+    "sort_date": "2026-04-17",
+    "authors": "Hsiao TW, Waller LA",
+    "title": "Inverse sampling intensity weighting for preferential sampling adjustment",
+    "venue": "Journal of Agricultural, Biological, and Environmental Statistics. Advance online publication",
+    "doi": "10.1007/s13253-026-00730-z",
+    "code": "https://github.com/tXiao95/ISIW",
+    "featured": 2
+  },
+  {
+    "id": "hsiao-2026-hypertension",
+    "type": "peer-reviewed",
+    "year": 2026,
+    "sort_date": "2026-02",
+    "authors": "Hsiao TW, Fede L, Gocke C, Waller LA, Ali MK, Varghese JS",
+    "title": "County Prevalence, Awareness, and Control of High Blood Pressure From Health Kiosks in the United States, 2017–2024",
+    "venue": "Hypertension, 83(2)",
+    "doi": "10.1161/HYPERTENSIONAHA.125.25829"
+  },
+  {
+    "id": "hsiao-2026-aje",
+    "type": "peer-reviewed",
+    "year": 2026,
+    "sort_date": "2026-01-08",
+    "authors": "Hsiao TW, Gaskins AJ, Warren JL, Darrow LA, Strickland MJ, Russell AG, Chang HH",
+    "title": "A time-to-event analysis of the association between ambient air pollution and risk of spontaneous abortion using vital records in the U.S. state of Georgia (2005–2014)",
+    "venue": "American Journal of Epidemiology, 195(1), 60–69",
+    "doi": "10.1093/aje/kwaf019"
+  },
+  {
+    "id": "varghese-2026-obesity",
+    "type": "peer-reviewed",
+    "year": 2026,
+    "sort_date": "2026-04",
+    "authors": "Varghese JS, Hsiao TW, Fede L, Chizak C, Gocke C, Waller LA, Ali MK",
+    "title": "National, State, and County Estimates of Adult Overweight and Obesity From Electronic Health Records and Kiosks in Retail Locations, 2024–2025",
+    "venue": "Obesity, 34(4), 908–916",
+    "doi": "10.1002/oby.70141"
+  },
+  {
+    "id": "hsiao-2025-allocation",
+    "type": "peer-reviewed",
+    "year": 2025,
+    "sort_date": "2025-09-25",
+    "authors": "Hsiao TW, Liao CY, Waller LA, Paynabar K",
+    "title": "Balancing access, precision, and equity in adaptive test site allocation with an application to COVID-19 in Atlanta, Georgia",
+    "venue": "Scientific Reports, 15, 32775",
+    "doi": "10.1038/s41598-025-13804-8"
+  },
+  {
+    "id": "hsiao-2025-jama",
+    "type": "peer-reviewed",
+    "year": 2025,
+    "sort_date": "2025-10-01",
+    "authors": "Hsiao TW, Varghese JS, Fede L, Gocke C, Waller LA, Ali MK",
+    "title": "Blood Pressure Measurements from Self-Service Health Kiosks in US Retail Stores, 2017–2024",
+    "venue": "JAMA Cardiology, 10(10), 1044–1048",
+    "doi": "10.1001/jamacardio.2025.2487",
+    "note": "Highlighted in an Editor’s Note by Khan, Harrington, and Ahmad (2025).",
+    "note_url": "https://doi.org/10.1001/jamacardio.2025.2492"
+  },
+  {
+    "id": "kendrick-2021-tobacco",
+    "type": "peer-reviewed",
+    "year": 2021,
+    "sort_date": "2021-07",
+    "authors": "Kendrick PJ, et al.",
+    "title": "Spatial, temporal, and demographic patterns in prevalence of chewing tobacco use in 204 countries and territories, 1990–2019: a systematic analysis from the Global Burden of Disease Study 2019",
+    "venue": "The Lancet Public Health, 6(7), e482–e499",
+    "doi": "10.1016/S2468-2667(21)00065-7",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8251505/"
+  },
+  {
+    "id": "reitsma-2021-smoking",
+    "type": "peer-reviewed",
+    "year": 2021,
+    "sort_date": "2021-06",
+    "authors": "Reitsma MB, et al.",
+    "title": "Spatial, temporal, and demographic patterns in prevalence of smoking tobacco use and attributable disease burden in 204 countries and territories, 1990–2019: a systematic analysis from the Global Burden of Disease Study 2019",
+    "venue": "The Lancet, 397(10292), 2337–2360",
+    "doi": "10.1016/S0140-6736(21)01169-7",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8223261/"
+  },
+  {
+    "id": "vollset-2020-population",
+    "type": "peer-reviewed",
+    "year": 2020,
+    "sort_date": "2020-10",
+    "authors": "Vollset SE, Goren E, Yuan CW, Cao J, Smith AE, Hsiao T, et al.",
+    "title": "Fertility, mortality, migration, and population scenarios for 195 countries and territories from 2017 to 2100: a forecasting analysis for the Global Burden of Disease Study",
+    "venue": "The Lancet, 396(10258), 1285–1306",
+    "doi": "10.1016/S0140-6736(20)30677-2"
+  },
+  {
+    "id": "stanaway-2018-risk",
+    "type": "peer-reviewed",
+    "year": 2018,
+    "sort_date": "2018-11",
+    "authors": "Stanaway JD, et al.",
+    "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+    "venue": "The Lancet, 392(10159), 1923–1994",
+    "doi": "10.1016/S0140-6736(18)32225-6"
+  },
+  {
+    "id": "murray-2018-population",
+    "type": "peer-reviewed",
+    "year": 2018,
+    "sort_date": "2018-11",
+    "authors": "Murray CJL, et al.",
+    "title": "Population and fertility by age and sex for 195 countries and territories, 1950–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+    "venue": "The Lancet, 392(10159), 1995–2051",
+    "doi": "10.1016/S0140-6736(18)32278-5"
+  },
+  {
+    "id": "lozano-2018-sdg",
+    "type": "peer-reviewed",
+    "year": 2018,
+    "sort_date": "2018-11",
+    "authors": "Lozano R, et al.",
+    "title": "Measuring progress from 1990 to 2017 and projecting attainment to 2030 of the health-related Sustainable Development Goals for 195 countries and territories: a systematic analysis for the Global Burden of Disease Study 2017",
+    "venue": "The Lancet, 392(10159), 2091–2138",
+    "doi": "10.1016/S0140-6736(18)32281-5"
+  },
+  {
+    "id": "roth-2018-mortality",
+    "type": "peer-reviewed",
+    "year": 2018,
+    "sort_date": "2018-11",
+    "authors": "Roth GA, et al.",
+    "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
+    "venue": "The Lancet, 392(10159), 1736–1788",
+    "doi": "10.1016/S0140-6736(18)32203-7"
+  },
+  {
+    "id": "anderson-2017-arousal",
+    "type": "peer-reviewed",
+    "year": 2017,
+    "sort_date": "2017-06-21",
+    "authors": "Anderson A, Hsiao T, Metsis V",
+    "title": "Classification of Emotional Arousal During Multimedia Exposure",
+    "venue": "Proceedings of the 10th International Conference on PErvasive Technologies Related to Assistive Environments, 181–184. ACM",
+    "doi": "10.1145/3056540.3064956"
+  },
+  {
+    "id": "wu-2015-polyomavirus",
+    "type": "peer-reviewed",
+    "year": 2015,
+    "sort_date": "2015",
+    "authors": "Wu JH, Simonette RA, Hsiao T, Doan HQ, Rady PL, Tyring SK",
+    "title": "Cutaneous Human Polyomavirus Small T Antigens and 4E-BP1 Targeting",
+    "venue": "Intervirology, 58(6), 382–385",
+    "doi": "10.1159/000444921"
+  },
+  {
+    "id": "hsiao-2026-csdr",
+    "type": "preprint",
+    "year": 2026,
+    "sort_date": "2026-06-12",
+    "authors": "Hsiao TW, Chang HH, Nabi R",
+    "title": "Causal Sufficient Dimension Reduction for Multiple Continuous Exposures with an Application to Environmental Mixtures",
+    "venue": "arXiv preprint",
+    "doi": "10.48550/arXiv.2606.14840",
+    "arxiv": "2606.14840",
+    "code": "https://github.com/tXiao95/csdr",
+    "featured": 1,
+    "note": "An earlier version received the 2026 ENAR Distinguished Student Paper Award."
+  },
+  {
+    "id": "li-2026-ozone",
+    "type": "preprint",
+    "year": 2026,
+    "sort_date": "2026-02-19",
+    "authors": "Li C, Hsiao TW, Ebelt S, Zhang R, Chang HH",
+    "title": "Temperature and Respiratory Emergency Department Visits: A Mediation Analysis with Ambient Ozone Exposure",
+    "venue": "arXiv preprint",
+    "doi": "10.48550/arXiv.2602.16970",
+    "arxiv": "2602.16970"
+  }
+]

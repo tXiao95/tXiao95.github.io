@@ -1,0 +1,9 @@
+/_site/
+/.quarto/
+/_generated/
+/tmp/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+**/*.quarto_ipynb

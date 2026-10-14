@@ -1,0 +1,55 @@
+---
+title: "Thomas Hsiao | Biostatistics at Emory"
+description: "Thomas Hsiao develops statistical methods for causal inference, spatial statistics, and informative missingness, with applications in environmental and population health."
+include-before-body: _generated/header-home.html
+---
+
+:::: {.home-intro}
+::: {.intro-content}
+[BIOSTATISTICS · EMORY UNIVERSITY]{.eyebrow}
+
+# Thomas Hsiao
+
+[Postdoctoral Researcher in Biostatistics]{.position}
+
+::: {.bio}
+I develop statistical methods to learn about health from complex, imperfect data. My research brings together **causal inference**, **spatiotemporal statistics**, and **informative missingness**, with applications in environmental health, electronic health records, and disease surveillance.
+
+I am a postdoctoral researcher at Emory University, working with Howard H. Chang and Razieh Nabi. I received my PhD in Biostatistics from Emory in 2025, advised by Lance Waller.
+:::
+
+::: {.profile-links}
+[CV (PDF)](cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ) [GitHub](https://github.com/tXiao95) [Email](mailto:thomas.hsiao@emory.edu)
+:::
+:::
+
+::: {.research-note}
+{{< include _generated/portrait.html >}}
+
+## Research interests
+
+- Causal inference
+- Spatial statistics
+- Informative missingness
+
+Understanding environmental exposures, patterns of health, and the processes that shape the data we observe.
+:::
+::::
+
+::: {.home-section}
+::: {.section-heading}
+## Selected work
+
+[All publications →](publications.qmd)
+:::
+
+{{< include _generated/featured.html >}}
+:::
+
+::: {.home-section}
+::: {.section-heading}
+## Recent highlights
+:::
+
+{{< include _generated/news.html >}}
+:::

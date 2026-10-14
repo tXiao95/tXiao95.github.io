@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$pagetitle$</title>
+$if(description)$<meta name="description" content="$description$">$endif$
+<meta property="og:title" content="$pagetitle$">
+$if(description)$<meta property="og:description" content="$description$">$endif$
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Thomas Hsiao">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+$for(include-before)$
+$include-before$
+$endfor$
+<div id="quarto-content">
+<main id="quarto-document-content" class="content" tabindex="-1">
+$body$
+</main>
+</div>
+$for(include-after)$
+$include-after$
+$endfor$
+</body>
+</html>

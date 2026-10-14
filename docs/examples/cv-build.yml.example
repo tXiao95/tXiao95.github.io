@@ -1,0 +1,76 @@
+# INACTIVE EXAMPLE: copy only into a separate private CV-source repository.
+# Match the real main file, compiler, fonts, and TeX environment first.
+name: Compile CV and optionally propose website update
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  MAIN_TEX: main.tex
+  LATEXMK_MODE: -pdf
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install TeX dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends latexmk texlive-latex-extra texlive-fonts-recommended texlive-xetex texlive-bibtex-extra biber
+      - name: Compile
+        shell: bash
+        run: |
+          latexmk "$LATEXMK_MODE" -interaction=nonstopmode -halt-on-error -file-line-error -outdir=build "$MAIN_TEX"
+          cp "build/$(basename "${MAIN_TEX%.tex}").pdf" cv.pdf
+          test -s cv.pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: compiled-cv
+          path: cv.pdf
+          if-no-files-found: error
+          retention-days: 14
+
+  propose-update:
+    # Disabled unless deliberately enabled after validating compilation.
+    if: vars.ENABLE_WEBSITE_PR == 'true'
+    needs: compile
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          repository: tXiao95/tXiao95.github.io
+          ref: main
+          path: website
+          token: ${{ secrets.WEBSITE_UPDATE_TOKEN }}
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: compiled-cv
+          path: compiled
+      - name: Open PDF update pull request
+        working-directory: website
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.WEBSITE_UPDATE_TOKEN }}
+        run: |
+          cp ../compiled/cv.pdf cv.pdf
+          if git diff --quiet -- cv.pdf; then
+            echo "The CV is unchanged."
+            exit 0
+          fi
+          branch="automation/cv-${GITHUB_RUN_ID}"
+          git switch -c "$branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cv.pdf
+          git commit -m "Update compiled CV"
+          gh auth setup-git
+          git push --set-upstream origin "$branch"
+          printf '%s\n' 'Update cv.pdf from the Overleaf source. Review the PDF before merging. A human merge to main triggers website deployment.' > ../pr-body.txt
+          gh pr create --repo tXiao95/tXiao95.github.io --base main --head "$branch" --title "Update compiled CV" --body-file ../pr-body.txt

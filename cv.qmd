@@ -1,0 +1,13 @@
+---
+title: Curriculum Vitae
+description: "View or download Thomas Hsiao’s academic CV as a PDF."
+include-before-body: _generated/header-cv.html
+---
+
+::: {.page-intro}
+# Curriculum Vitae
+:::
+
+<div class="cv-actions">
+<a class="button" href="cv.pdf">View CV (PDF)</a>
+</div>

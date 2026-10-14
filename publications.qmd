@@ -1,0 +1,19 @@
+---
+title: Publications
+description: "Peer-reviewed publications and preprints by Thomas Hsiao, with article and research software links."
+include-before-body: _generated/header-publications.html
+---
+
+::: {.page-intro}
+[PUBLICATIONS]{.eyebrow}
+
+# Papers & preprints
+
+[Methodology and collaborative work in biostatistics, environmental epidemiology, and population health.]{.lede}
+:::
+
+::: {.jump-links}
+[Peer-reviewed](#peer-reviewed) [Preprints](#preprints) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ)
+:::
+
+{{< include _generated/publications.html >}}
