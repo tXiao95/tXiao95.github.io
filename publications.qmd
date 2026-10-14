@@ -13,7 +13,7 @@ include-before-body: _generated/header-publications.html
 :::
 
 ::: {.jump-links}
-[Peer-reviewed](#peer-reviewed) [Preprints](#preprints) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ)
+[Preprints](#preprints) [Peer-reviewed](#peer-reviewed) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ)
 :::
 
 {{< include _generated/publications.html >}}

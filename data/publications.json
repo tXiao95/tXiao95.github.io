@@ -7,7 +7,8 @@
     "authors": "Li C, Hsiao TW, Warren JL, Darrow LA, Strickland MJ, Russell AG, Chang HH",
     "title": "Maternal ambient air pollution exposure and risk of stillbirth in Georgia, USA",
     "venue": "Environmental Epidemiology, 10(4), e505",
-    "doi": "10.1097/EE9.0000000000000505"
+    "doi": "10.1097/EE9.0000000000000505",
+    "code": "https://github.com/chenli488/Air-Pollution-and-Stillbirth"
   },
   {
     "id": "hsiao-2026-isiw",
@@ -18,8 +19,9 @@
     "title": "Inverse sampling intensity weighting for preferential sampling adjustment",
     "venue": "Journal of Agricultural, Biological, and Environmental Statistics. Advance online publication",
     "doi": "10.1007/s13253-026-00730-z",
-    "code": "https://github.com/tXiao95/ISIW",
-    "featured": 2
+    "code": "https://github.com/tXiao95/ISIW-analysis",
+    "featured": 2,
+    "r_package": "https://github.com/tXiao95/ISIW"
   },
   {
     "id": "hsiao-2026-hypertension",
@@ -29,7 +31,8 @@
     "authors": "Hsiao TW, Fede L, Gocke C, Waller LA, Ali MK, Varghese JS",
     "title": "County Prevalence, Awareness, and Control of High Blood Pressure From Health Kiosks in the United States, 2017–2024",
     "venue": "Hypertension, 83(2)",
-    "doi": "10.1161/HYPERTENSIONAHA.125.25829"
+    "doi": "10.1161/HYPERTENSIONAHA.125.25829",
+    "code": "https://github.com/jvargh7/spatial_kiosks"
   },
   {
     "id": "hsiao-2026-aje",
@@ -39,7 +42,8 @@
     "authors": "Hsiao TW, Gaskins AJ, Warren JL, Darrow LA, Strickland MJ, Russell AG, Chang HH",
     "title": "A time-to-event analysis of the association between ambient air pollution and risk of spontaneous abortion using vital records in the U.S. state of Georgia (2005–2014)",
     "venue": "American Journal of Epidemiology, 195(1), 60–69",
-    "doi": "10.1093/aje/kwaf019"
+    "doi": "10.1093/aje/kwaf019",
+    "code": "https://github.com/tXiao95/fetal-death"
   },
   {
     "id": "varghese-2026-obesity",
@@ -59,7 +63,8 @@
     "authors": "Hsiao TW, Liao CY, Waller LA, Paynabar K",
     "title": "Balancing access, precision, and equity in adaptive test site allocation with an application to COVID-19 in Atlanta, Georgia",
     "venue": "Scientific Reports, 15, 32775",
-    "doi": "10.1038/s41598-025-13804-8"
+    "doi": "10.1038/s41598-025-13804-8",
+    "code": "https://github.com/tXiao95/adaptive-sampling-covid"
   },
   {
     "id": "hsiao-2025-jama",
@@ -71,7 +76,8 @@
     "venue": "JAMA Cardiology, 10(10), 1044–1048",
     "doi": "10.1001/jamacardio.2025.2487",
     "note": "Highlighted in an Editor’s Note by Khan, Harrington, and Ahmad (2025).",
-    "note_url": "https://doi.org/10.1001/jamacardio.2025.2492"
+    "note_url": "https://doi.org/10.1001/jamacardio.2025.2492",
+    "code": "https://github.com/jvargh7/spatial_kiosks"
   },
   {
     "id": "kendrick-2021-tobacco",
@@ -175,9 +181,10 @@
     "venue": "arXiv preprint",
     "doi": "10.48550/arXiv.2606.14840",
     "arxiv": "2606.14840",
-    "code": "https://github.com/tXiao95/csdr",
+    "code": "https://github.com/tXiao95/causalpca",
     "featured": 1,
-    "note": "An earlier version received the 2026 ENAR Distinguished Student Paper Award."
+    "note": "An earlier version received the 2026 ENAR Distinguished Student Paper Award.",
+    "r_package": "https://github.com/tXiao95/csdr"
   },
   {
     "id": "li-2026-ozone",
@@ -188,6 +195,7 @@
     "title": "Temperature and Respiratory Emergency Department Visits: A Mediation Analysis with Ambient Ozone Exposure",
     "venue": "arXiv preprint",
     "doi": "10.48550/arXiv.2602.16970",
-    "arxiv": "2602.16970"
+    "arxiv": "2602.16970",
+    "code": "https://github.com/chenli488/Mediation-Effect-of-Ozone"
   }
 ]

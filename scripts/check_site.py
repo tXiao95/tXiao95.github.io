@@ -51,7 +51,11 @@ for path, page in pages.items():
             other = pages.get(target) or Page(target.read_text(encoding="utf-8"))
             if unquote(u.fragment) not in other.ids:
                 errors.append(f"{path.name}: missing anchor {href}")
-if len(pages) != 7: errors.append(f"Expected seven pages, got {len(pages)}")
+expected_pages = {"index.html", "publications.html", "teaching.html", "cv.html", "contact.html", "404.html"}
+if {p.relative_to(SITE).as_posix() for p in pages} != expected_pages:
+    errors.append("Published pages differ from the approved public page list")
+for private_path in ("_internal", "docs", "README.md", "research.html"):
+    if (SITE / private_path).exists(): errors.append(f"Internal content leaked into output: {private_path}")
 pdf = SITE / "cv.pdf"
 if not pdf.is_file() or not pdf.read_bytes().startswith(b"%PDF-"):
     errors.append("Missing or invalid published CV")
@@ -62,6 +66,8 @@ pub_ids = pages[SITE / "publications.html"].ids
 for p in pubs:
     if p["id"] not in pub_ids: errors.append(f"Missing publication: {p['id']}")
 if not (SITE / "sitemap.xml").exists(): errors.append("Missing sitemap")
+elif "research.html" in (SITE / "sitemap.xml").read_text(encoding="utf-8"):
+    errors.append("Hidden research page remains in sitemap")
 if errors:
     print("\n".join(errors))
     sys.exit(1)

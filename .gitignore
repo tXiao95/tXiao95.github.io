@@ -7,3 +7,4 @@ __pycache__/
 Thumbs.db
 
 **/*.quarto_ipynb
+/_internal/

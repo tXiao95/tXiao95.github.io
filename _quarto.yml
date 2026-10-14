@@ -3,7 +3,6 @@ project:
   output-dir: _site
   render:
     - index.qmd
-    - research.qmd
     - publications.qmd
     - teaching.qmd
     - cv.qmd
@@ -14,6 +13,9 @@ project:
     - assets/
     - "!CNAME"
     - "!tmp/**"
+    - "!_internal/**"
+    - "!README.md"
+    - "!docs/**"
   pre-render: python3 scripts/prepare.py
   post-render: python3 scripts/finalize.py
 

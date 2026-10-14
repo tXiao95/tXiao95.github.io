@@ -17,7 +17,7 @@ def link(url, text):
         raise ValueError(f"Unsupported URL: {url}")
     return f'<a href="{escape(url, quote=True)}">{escape(text)}</a>'
 
-nav = [("home", "index.html", "Home"), ("research", "research.html", "Research"),
+nav = [("home", "index.html", "Home"),
        ("publications", "publications.html", "Publications"),
        ("teaching", "teaching.html", "Teaching"), ("cv", "cv.html", "CV"),
        ("contact", "contact.html", "Contact")]
@@ -60,11 +60,13 @@ def pub_links(p):
     if p.get("arxiv"): links.append(link("https://arxiv.org/abs/" + p["arxiv"], "arXiv"))
     if p.get("url"): links.append(link(p["url"], "Article"))
     if p.get("code"): links.append(link(p["code"], "Code"))
+    if p.get("r_package"): links.append(link(p["r_package"], "R package"))
     return '<p class="pub-links">' + "".join(links) + "</p>" if links else ""
 
 sections = []
-for kind, anchor, label in [("peer-reviewed", "peer-reviewed", "Peer-reviewed publications"),
-                             ("preprint", "preprints", "Preprints"), ("manuscript", "manuscripts", "Manuscripts")]:
+for kind, anchor, label in [("preprint", "preprints", "Preprints"),
+                             ("peer-reviewed", "peer-reviewed", "Peer-reviewed publications"),
+                             ("manuscript", "manuscripts", "Manuscripts")]:
     subset = sorted((p for p in pubs if p["type"] == kind), key=lambda p: (p["year"], p.get("sort_date", "")), reverse=True)
     if not subset: continue
     section = [f'<section class="publications-section" aria-labelledby="{anchor}"><h2 id="{anchor}">{label}</h2>']
