@@ -17,7 +17,7 @@ def link(url, text):
         raise ValueError(f"Unsupported URL: {url}")
     return f'<a href="{escape(url, quote=True)}">{escape(text)}</a>'
 
-nav = [("home", "index.html", "Home"),
+nav = [("home", "", "Home"),
        ("publications", "publications.html", "Publications"),
        ("teaching", "teaching.html", "Teaching"), ("cv", "cv.html", "CV"),
        ("contact", "contact.html", "Contact")]
