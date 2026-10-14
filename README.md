@@ -19,7 +19,7 @@ Routine updates can be made in GitHub's browser interface. Open a file, select i
 | Research descriptions and related papers | `research.qmd` |
 | Publication details and links | `data/publications.json` |
 | Teaching and course experience | `teaching.qmd` |
-| News, awards, and presentations | `data/news.json` |
+| Saved news, awards, and presentations (currently hidden) | `data/news.json` |
 | Email and professional links | `contact.qmd` |
 | Compiled CV | `cv.pdf` |
 | Photograph | Add `assets/portrait.jpg`, `.webp`, or `.png` |
@@ -65,7 +65,7 @@ Required fields are `id`, `type`, `year`, `authors`, `title`, and `venue`. Choos
 | `url` | Full `https://` article URL |
 | `code` | Full `https://` code repository URL |
 | `sort_date` | Verified date: `YYYY`, `YYYY-MM`, or `YYYY-MM-DD` |
-| `featured` | Positive homepage display rank; smaller numbers appear first |
+| `featured` | Optional selected-work rank; currently hidden on the homepage |
 | `note` | Short factual note, such as an accompanying editorial |
 | `note_url` | Optional link for the note |
 | `year_label` | Display text overriding the numeric year, if needed |
@@ -75,6 +75,8 @@ Each section sorts by year, then `sort_date`, newest first. Records without date
 When a preprint is published, update its existing record and type rather than creating a duplicate. Retain its `id` to preserve links. Link from a research page with `[Paper title](publications.qmd#the-publication-id)`.
 
 ### Add news, an award, or a presentation
+
+The homepage currently contains only the About Me biography and professional links, with space for a future photograph. Selected work and recent highlights are hidden. Their data is retained; ask Codex to restore either section when needed. Editing news data alone will not display a section.
 
 Add an object to `data/news.json`:
 
