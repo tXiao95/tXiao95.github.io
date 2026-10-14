@@ -6,7 +6,7 @@ include-before-body: _generated/header-home.html
 
 :::: {.home-intro}
 ::: {.intro-content}
-# About Me
+<h1>About Me</h1>
 
 ::: {.bio}
 I develop statistical methods to learn about health from complex, imperfect data. My research brings together **causal inference**, **spatiotemporal statistics**, and **informative missingness**, with applications in environmental health, electronic health records, and disease surveillance.
