@@ -101,7 +101,6 @@ for n in sorted(news, key=lambda n: n["date"], reverse=True):
     items.append(f'<li><time{date_attr}>{escape(n["label"])}</time><span>{text}</span></li>')
 write("news.html", '<ul class="news-list">' + "".join(items) + '</ul>')
 
-portrait = next((ROOT / "assets" / f"portrait.{ext}" for ext in ("webp", "jpg", "png")
-                 if (ROOT / "assets" / f"portrait.{ext}").is_file()), None)
-write("portrait.html", f'<img class="portrait" src="assets/{portrait.name}" alt="Thomas Hsiao" width="245" height="306">' if portrait else "<!-- Add assets/portrait.jpg or portrait.webp when available. -->")
+portrait = ROOT / "assets" / "headshot.jpg"
+write("portrait.html", '<img class="portrait" src="assets/headshot.jpg" alt="Thomas Hsiao" width="245" height="306">' if portrait.is_file() else "<!-- Add assets/headshot.jpg when available. -->")
 print(f"Prepared {len(pubs)} publications, {len(news)} highlights, and navigation.")
