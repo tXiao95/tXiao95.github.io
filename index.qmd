@@ -11,7 +11,7 @@ include-before-body: _generated/header-home.html
 ::: {.bio}
 I am a biostatistician working on data-driven decision making for public health impact. My research develops statistical methods to address problems in environmental health, electronic health records, and disease surveillance by bringing together **causal inference, spatiotemporal statistics, and informative missingness.**
 
-I am a postdoctoral researcher at Emory University, working with [Howard Chang](https://sph.emory.edu/profile/faculty/howard-chang) and [Razieh Nabi](https://raziehnabi.com/), and a member of the [SPENSER lab](https://www.spenser-lab.org/). I received my PhD in Biostatistics from Emory in 2025, advised by [Lance Waller](https://sph.emory.edu/profile/faculty/lance-waller).
+I am a postdoctoral researcher at Emory University, working with [Howard Chang](https://sph.emory.edu/profile/faculty/howard-chang) and [Razieh Nabi](https://raziehnabi.com/), and a member of the [SPENSER lab](https://www.spenser-lab.org/). I received my PhD in Biostatistics from Emory in 2025, advised by [Lance Waller](https://sph.emory.edu/profile/faculty/lance-waller). I am currently on the **2026–2027 academic job market**.
 :::
 
 ::: {.profile-links}
