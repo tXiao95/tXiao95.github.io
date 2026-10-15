@@ -15,7 +15,7 @@ I am a postdoctoral researcher at Emory University, working with [Howard Chang](
 :::
 
 ::: {.profile-links}
-[CV (PDF)](cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ) [GitHub](https://github.com/tXiao95) [Email](mailto:thomas.hsiao@emory.edu)
+[CV (PDF)](cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ) [GitHub](https://github.com/tXiao95) [LinkedIn](https://www.linkedin.com/in/thsiao3/) [Email](mailto:thomas.hsiao@emory.edu)
 :::
 :::
 
