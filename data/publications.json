@@ -8,7 +8,7 @@
     "title": "Maternal ambient air pollution exposure and risk of stillbirth in Georgia, USA",
     "venue": "Environmental Epidemiology, 10(4), e505",
     "doi": "10.1097/EE9.0000000000000505",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13344931/",
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13344931/",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42422320/",
     "code": "https://github.com/chenli488/Air-Pollution-and-Stillbirth"
   },
@@ -71,7 +71,7 @@
     "title": "Balancing access, precision, and equity in adaptive test site allocation with an application to COVID-19 in Atlanta, Georgia",
     "venue": "Scientific Reports, 15, 32775",
     "doi": "10.1038/s41598-025-13804-8",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12464154/",
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12464154/",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40998891/",
     "code": "https://github.com/tXiao95/adaptive-sampling-covid"
   },
@@ -84,7 +84,7 @@
     "title": "Blood Pressure Measurements from Self-Service Health Kiosks in US Retail Stores, 2017–2024",
     "venue": "JAMA Cardiology, 10(10), 1044–1048",
     "doi": "10.1001/jamacardio.2025.2487",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12329674/",
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12329674/",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40768215/",
     "note": "Highlighted in an Editor’s Note by Khan, Harrington, and Ahmad (2025).",
     "note_url": "https://doi.org/10.1001/jamacardio.2025.2492",
@@ -100,7 +100,7 @@
     "venue": "The Lancet Public Health, 6(7), e482–e499",
     "doi": "10.1016/S2468-2667(21)00065-7",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34051920/",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8251505/"
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8251505/"
   },
   {
     "id": "reitsma-2021-smoking",
@@ -112,7 +112,7 @@
     "venue": "The Lancet, 397(10292), 2337–2360",
     "doi": "10.1016/S0140-6736(21)01169-7",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34051883/",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8223261/"
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8223261/"
   },
   {
     "id": "vollset-2020-population",
@@ -123,7 +123,7 @@
     "title": "Fertility, mortality, migration, and population scenarios for 195 countries and territories from 2017 to 2100: a forecasting analysis for the Global Burden of Disease Study",
     "venue": "The Lancet, 396(10258), 1285–1306",
     "doi": "10.1016/S0140-6736(20)30677-2",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7561721/",
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7561721/",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/32679112/"
   },
   {
@@ -135,7 +135,7 @@
     "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
     "venue": "The Lancet, 392(10159), 1923–1994",
     "doi": "10.1016/S0140-6736(18)32225-6",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227755/",
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227755/",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30496105/"
   },
   {
@@ -147,7 +147,7 @@
     "title": "Population and fertility by age and sex for 195 countries and territories, 1950–2017: a systematic analysis for the Global Burden of Disease Study 2017",
     "venue": "The Lancet, 392(10159), 1995–2051",
     "doi": "10.1016/S0140-6736(18)32278-5",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227915/",
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227915/",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30496106/"
   },
   {
@@ -159,7 +159,7 @@
     "title": "Measuring progress from 1990 to 2017 and projecting attainment to 2030 of the health-related Sustainable Development Goals for 195 countries and territories: a systematic analysis for the Global Burden of Disease Study 2017",
     "venue": "The Lancet, 392(10159), 2091–2138",
     "doi": "10.1016/S0140-6736(18)32281-5",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227911/",
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227911/",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30496107/"
   },
   {
@@ -171,7 +171,7 @@
     "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
     "venue": "The Lancet, 392(10159), 1736–1788",
     "doi": "10.1016/S0140-6736(18)32203-7",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227606/",
+    "full_text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227606/",
     "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30496103/"
   },
   {

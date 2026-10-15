@@ -51,16 +51,21 @@ def author_html(p):
     return re.sub(r"\bHsiao T(?:W)?\b", r"<strong>\g<0></strong>", escape(p["authors"]))
 
 def primary_url(p):
+    if p["type"] == "peer-reviewed" and p.get("doi"):
+        return "https://doi.org/" + p["doi"]
     return ("https://arxiv.org/abs/" + p["arxiv"] if p.get("arxiv") else
             "https://doi.org/" + p["doi"] if p.get("doi") else p.get("url"))
 
 def pub_links(p):
     links = []
-    if p.get("doi"): links.append(link("https://doi.org/" + p["doi"], "DOI"))
-    if p.get("arxiv"): links.append(link("https://arxiv.org/abs/" + p["arxiv"], "arXiv"))
-    if p.get("url"): links.append(link(p["url"], "Article"))
-    if p.get("pubmed"): links.append(link(p["pubmed"], "PubMed"))
-    if p.get("pdf"): links.append(link(p["pdf"], "PDF"))
+    if p["type"] == "peer-reviewed":
+        if primary_url(p): links.append(link(primary_url(p), "Article"))
+        if p.get("pdf"):
+            links.append(link(p["pdf"], "PDF"))
+        elif p.get("full_text"):
+            links.append(link(p["full_text"], "Full text"))
+    elif p.get("arxiv"):
+        links.append(link("https://arxiv.org/abs/" + p["arxiv"], "arXiv"))
     if p.get("code"): links.append(link(p["code"], "Code"))
     if p.get("r_package"): links.append(link(p["r_package"], "R package"))
     return '<p class="pub-links">' + "".join(links) + "</p>" if links else ""
