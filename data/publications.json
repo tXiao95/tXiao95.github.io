@@ -8,6 +8,8 @@
     "title": "Maternal ambient air pollution exposure and risk of stillbirth in Georgia, USA",
     "venue": "Environmental Epidemiology, 10(4), e505",
     "doi": "10.1097/EE9.0000000000000505",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13344931/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/42422320/",
     "code": "https://github.com/chenli488/Air-Pollution-and-Stillbirth"
   },
   {
@@ -19,6 +21,7 @@
     "title": "Inverse sampling intensity weighting for preferential sampling adjustment",
     "venue": "Journal of Agricultural, Biological, and Environmental Statistics. Advance online publication",
     "doi": "10.1007/s13253-026-00730-z",
+    "url": "https://link.springer.com/article/10.1007/s13253-026-00730-z",
     "code": "https://github.com/tXiao95/ISIW-analysis",
     "featured": 2,
     "r_package": "https://github.com/tXiao95/ISIW"
@@ -32,6 +35,7 @@
     "title": "County Prevalence, Awareness, and Control of High Blood Pressure From Health Kiosks in the United States, 2017–2024",
     "venue": "Hypertension, 83(2)",
     "doi": "10.1161/HYPERTENSIONAHA.125.25829",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41410032/",
     "code": "https://github.com/jvargh7/spatial_kiosks"
   },
   {
@@ -43,6 +47,7 @@
     "title": "A time-to-event analysis of the association between ambient air pollution and risk of spontaneous abortion using vital records in the U.S. state of Georgia (2005–2014)",
     "venue": "American Journal of Epidemiology, 195(1), 60–69",
     "doi": "10.1093/aje/kwaf019",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/39894759/",
     "code": "https://github.com/tXiao95/fetal-death"
   },
   {
@@ -54,6 +59,7 @@
     "title": "National, State, and County Estimates of Adult Overweight and Obesity From Electronic Health Records and Kiosks in Retail Locations, 2024–2025",
     "venue": "Obesity, 34(4), 908–916",
     "doi": "10.1002/oby.70141",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/41672599/",
     "code": "https://github.com/chroniq-lab/kiosk_bmi"
   },
   {
@@ -65,6 +71,8 @@
     "title": "Balancing access, precision, and equity in adaptive test site allocation with an application to COVID-19 in Atlanta, Georgia",
     "venue": "Scientific Reports, 15, 32775",
     "doi": "10.1038/s41598-025-13804-8",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12464154/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40998891/",
     "code": "https://github.com/tXiao95/adaptive-sampling-covid"
   },
   {
@@ -76,6 +84,8 @@
     "title": "Blood Pressure Measurements from Self-Service Health Kiosks in US Retail Stores, 2017–2024",
     "venue": "JAMA Cardiology, 10(10), 1044–1048",
     "doi": "10.1001/jamacardio.2025.2487",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12329674/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/40768215/",
     "note": "Highlighted in an Editor’s Note by Khan, Harrington, and Ahmad (2025).",
     "note_url": "https://doi.org/10.1001/jamacardio.2025.2492",
     "code": "https://github.com/jvargh7/spatial_kiosks"
@@ -89,6 +99,7 @@
     "title": "Spatial, temporal, and demographic patterns in prevalence of chewing tobacco use in 204 countries and territories, 1990–2019: a systematic analysis from the Global Burden of Disease Study 2019",
     "venue": "The Lancet Public Health, 6(7), e482–e499",
     "doi": "10.1016/S2468-2667(21)00065-7",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34051920/",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8251505/"
   },
   {
@@ -100,6 +111,7 @@
     "title": "Spatial, temporal, and demographic patterns in prevalence of smoking tobacco use and attributable disease burden in 204 countries and territories, 1990–2019: a systematic analysis from the Global Burden of Disease Study 2019",
     "venue": "The Lancet, 397(10292), 2337–2360",
     "doi": "10.1016/S0140-6736(21)01169-7",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/34051883/",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8223261/"
   },
   {
@@ -110,7 +122,9 @@
     "authors": "Vollset SE, Goren E, Yuan CW, Cao J, Smith AE, Hsiao T, et al.",
     "title": "Fertility, mortality, migration, and population scenarios for 195 countries and territories from 2017 to 2100: a forecasting analysis for the Global Burden of Disease Study",
     "venue": "The Lancet, 396(10258), 1285–1306",
-    "doi": "10.1016/S0140-6736(20)30677-2"
+    "doi": "10.1016/S0140-6736(20)30677-2",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7561721/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/32679112/"
   },
   {
     "id": "stanaway-2018-risk",
@@ -120,7 +134,9 @@
     "authors": "Stanaway JD, et al.",
     "title": "Global, regional, and national comparative risk assessment of 84 behavioural, environmental and occupational, and metabolic risks or clusters of risks for 195 countries and territories, 1990–2017: a systematic analysis for the Global Burden of Disease Study 2017",
     "venue": "The Lancet, 392(10159), 1923–1994",
-    "doi": "10.1016/S0140-6736(18)32225-6"
+    "doi": "10.1016/S0140-6736(18)32225-6",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227755/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30496105/"
   },
   {
     "id": "murray-2018-population",
@@ -130,7 +146,9 @@
     "authors": "Murray CJL, et al.",
     "title": "Population and fertility by age and sex for 195 countries and territories, 1950–2017: a systematic analysis for the Global Burden of Disease Study 2017",
     "venue": "The Lancet, 392(10159), 1995–2051",
-    "doi": "10.1016/S0140-6736(18)32278-5"
+    "doi": "10.1016/S0140-6736(18)32278-5",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227915/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30496106/"
   },
   {
     "id": "lozano-2018-sdg",
@@ -140,7 +158,9 @@
     "authors": "Lozano R, et al.",
     "title": "Measuring progress from 1990 to 2017 and projecting attainment to 2030 of the health-related Sustainable Development Goals for 195 countries and territories: a systematic analysis for the Global Burden of Disease Study 2017",
     "venue": "The Lancet, 392(10159), 2091–2138",
-    "doi": "10.1016/S0140-6736(18)32281-5"
+    "doi": "10.1016/S0140-6736(18)32281-5",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227911/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30496107/"
   },
   {
     "id": "roth-2018-mortality",
@@ -150,7 +170,9 @@
     "authors": "Roth GA, et al.",
     "title": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980–2017: a systematic analysis for the Global Burden of Disease Study 2017",
     "venue": "The Lancet, 392(10159), 1736–1788",
-    "doi": "10.1016/S0140-6736(18)32203-7"
+    "doi": "10.1016/S0140-6736(18)32203-7",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6227606/",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/30496103/"
   },
   {
     "id": "anderson-2017-arousal",
@@ -160,7 +182,8 @@
     "authors": "Anderson A, Hsiao T, Metsis V",
     "title": "Classification of Emotional Arousal During Multimedia Exposure",
     "venue": "Proceedings of the 10th International Conference on PErvasive Technologies Related to Assistive Environments, 181–184. ACM",
-    "doi": "10.1145/3056540.3064956"
+    "doi": "10.1145/3056540.3064956",
+    "pdf": "https://userweb.cs.txstate.edu/~v_m137/assets/pdf/Anderson2017-emotional-arousal.pdf"
   },
   {
     "id": "wu-2015-polyomavirus",
@@ -170,7 +193,9 @@
     "authors": "Wu JH, Simonette RA, Hsiao T, Doan HQ, Rady PL, Tyring SK",
     "title": "Cutaneous Human Polyomavirus Small T Antigens and 4E-BP1 Targeting",
     "venue": "Intervirology, 58(6), 382–385",
-    "doi": "10.1159/000444921"
+    "doi": "10.1159/000444921",
+    "url": "https://karger.com/int/article-abstract/58/6/382/178420/Cutaneous-Human-Polyomavirus-Small-T-Antigens-and",
+    "pubmed": "https://pubmed.ncbi.nlm.nih.gov/27055259/"
   },
   {
     "id": "hsiao-2026-csdr",

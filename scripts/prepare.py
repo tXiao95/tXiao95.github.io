@@ -59,6 +59,8 @@ def pub_links(p):
     if p.get("doi"): links.append(link("https://doi.org/" + p["doi"], "DOI"))
     if p.get("arxiv"): links.append(link("https://arxiv.org/abs/" + p["arxiv"], "arXiv"))
     if p.get("url"): links.append(link(p["url"], "Article"))
+    if p.get("pubmed"): links.append(link(p["pubmed"], "PubMed"))
+    if p.get("pdf"): links.append(link(p["pdf"], "PDF"))
     if p.get("code"): links.append(link(p["code"], "Code"))
     if p.get("r_package"): links.append(link(p["r_package"], "R package"))
     return '<p class="pub-links">' + "".join(links) + "</p>" if links else ""
