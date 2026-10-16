@@ -22,7 +22,7 @@ website:
   title: Thomas Hsiao
   site-url: https://txiao95.github.io
   description: "Thomas Hsiao is a postdoctoral researcher in Biostatistics at Emory University, studying causal inference, spatial statistics, and informative missingness."
-  favicon: assets/favicon.svg
+  favicon: assets/favicon.png
   search: false
   open-graph: false
 
