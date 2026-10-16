@@ -51,7 +51,7 @@ for path, page in pages.items():
             other = pages.get(target) or Page(target.read_text(encoding="utf-8"))
             if unquote(u.fragment) not in other.ids:
                 errors.append(f"{path.name}: missing anchor {href}")
-expected_pages = {"index.html", "publications.html", "teaching.html", "cv.html", "contact.html", "404.html"}
+expected_pages = {"index.html", "publications.html", "teaching.html", "contact.html", "404.html"}
 if {p.relative_to(SITE).as_posix() for p in pages} != expected_pages:
     errors.append("Published pages differ from the approved public page list")
 for private_path in ("_internal", "docs", "README.md", "research.html"):

@@ -5,7 +5,6 @@ project:
     - index.qmd
     - publications.qmd
     - teaching.qmd
-    - cv.qmd
     - contact.qmd
     - 404.qmd
   resources:

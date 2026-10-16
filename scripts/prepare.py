@@ -19,13 +19,14 @@ def link(url, text):
 
 nav = [("home", "", "Home"),
        ("publications", "publications.html", "Publications"),
-       ("teaching", "teaching.html", "Teaching"), ("cv", "cv.html", "CV"),
+       ("teaching", "teaching.html", "Teaching"), ("cv", "https://www.twhsiao.com/cv.pdf", "CV"),
        ("contact", "contact.html", "Contact")]
 for current in [row[0] for row in nav] + ["404"]:
     links = []
     for key, href, label in nav:
         active = ' aria-current="page"' if key == current else ""
-        links.append(f'<a href="/{href}"{active}>{escape(label)}</a>')
+        url = href if href.startswith("https://") else "/" + href
+        links.append(f'<a href="{escape(url, quote=True)}"{active}>{escape(label)}</a>')
     write(f"header-{current}.html",
           '<a class="skip-link" href="#quarto-document-content">Skip to content</a>'
           '<header class="site-header"><a class="wordmark" href="/">Thomas Hsiao</a>'
