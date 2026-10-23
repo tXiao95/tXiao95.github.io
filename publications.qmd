@@ -8,8 +8,4 @@ include-before-body: _generated/header-publications.html
 # PUBLICATIONS {.section-title}
 :::
 
-::: {.jump-links}
-[Preprints](#preprints) [Peer-reviewed](#peer-reviewed) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ)
-:::
-
 {{< include _generated/publications.html >}}
