@@ -27,12 +27,9 @@ for current in [row[0] for row in nav] + ["404"]:
         active = ' aria-current="page"' if key == current else ""
         url = href if href.startswith("https://") else "/" + href
         links.append(f'<a href="{escape(url, quote=True)}"{active}>{escape(label)}</a>')
-    # The homepage introduces the name in its main heading.
-    wordmark = "" if current == "home" else '<a class="wordmark" href="/">Thomas Hsiao</a>'
-    header_class = "site-header site-header--home" if current == "home" else "site-header"
     write(f"header-{current}.html",
           '<a class="skip-link" href="#quarto-document-content">Skip to content</a>'
-          f'<header class="{header_class}">' + wordmark +
+          '<header class="site-header">'
           '<nav class="site-nav" aria-label="Main navigation">' + "".join(links) + '</nav></header>')
 
 pubs = json.loads((ROOT / "data/publications.json").read_text(encoding="utf-8"))
