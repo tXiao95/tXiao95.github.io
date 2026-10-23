@@ -5,11 +5,7 @@ include-before-body: _generated/header-publications.html
 ---
 
 ::: {.page-intro}
-[PUBLICATIONS]{.eyebrow}
-
-# Papers & preprints
-
-[Methodology and collaborative work in biostatistics, environmental epidemiology, and population health.]{.lede}
+# PUBLICATIONS {.section-title}
 :::
 
 ::: {.jump-links}

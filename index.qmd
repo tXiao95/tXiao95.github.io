@@ -1,19 +1,19 @@
 ---
-title: "About Me | Thomas Hsiao"
-description: "I am a postdoctoral researcher at Emory University, working with Howard Chang and Razieh Nabi, and a member of the SPENSER lab. My research develops statistical methods for public health impact by addressing problems in environmental health, electronic health records, and disease surveillance, using tools from causal inference, dimension reduction, and spatiotemporal statistics. I received my PhD in Biostatistics from Emory in 2025, advised by Lance Waller and was previously a Post-Bachelor Fellow at the Institute for Health Metrics and Evaluation (IHME). I am currently on the 2026–2027 academic job market."
+title: "Thomas Hsiao | Biostatistics at Emory"
+description: "I am a postdoctoral researcher in the Department of Biostatistics and Bioinformatics at Emory University working with Howard Chang and Razieh Nabi, and a member of the SPENSER lab. My research develops statistical methods for public health impact by addressing problems in environmental health, electronic health records, and disease surveillance, using tools from causal inference, dimension reduction, and spatiotemporal statistics. I received my PhD in Biostatistics from Emory in 2025, advised by Lance Waller and was previously a Post-Bachelor Fellow at the Institute for Health Metrics and Evaluation (IHME). I am currently on the 2026–2027 academic job market."
 include-before-body: _generated/header-home.html
 ---
 
 :::: {.home-intro}
 ::: {.intro-content}
-# About Me
+# Thomas Hsiao
 
 ::: {.bio}
-I am a postdoctoral researcher at Emory University, working with [Howard Chang](https://sph.emory.edu/profile/faculty/howard-chang) and [Razieh Nabi](https://raziehnabi.com/), and a member of the [SPENSER lab](https://www.spenser-lab.org/). My research develops statistical methods for public health impact by addressing problems in environmental health, electronic health records, and disease surveillance, using tools from **causal inference**, **dimension reduction**, and **spatiotemporal statistics**. I received my PhD in Biostatistics from Emory in 2025, advised by [Lance Waller](https://sph.emory.edu/profile/faculty/lance-waller) and was previously a Post-Bachelor Fellow at the Institute for Health Metrics and Evaluation (IHME). I am currently on the **2026–2027 academic job market**.
+I am a postdoctoral researcher in the [Department of Biostatistics and Bioinformatics](https://sph.emory.edu/departments/biostatistics-bioinformatics) at Emory University working with [Howard Chang](https://sph.emory.edu/profile/faculty/howard-chang) and [Razieh Nabi](https://raziehnabi.com/), and a member of the [SPENSER lab](https://www.spenser-lab.org/). My research develops statistical methods for public health impact by addressing problems in environmental health, electronic health records, and disease surveillance, using tools from **causal inference**, **dimension reduction**, and **spatiotemporal statistics**. I received my PhD in Biostatistics from Emory in 2025, advised by [Lance Waller](https://sph.emory.edu/profile/faculty/lance-waller) and was previously a Post-Bachelor Fellow at the Institute for Health Metrics and Evaluation (IHME). I am currently on the **2026–2027 academic job market**.
 :::
 
 ::: {.profile-links}
-[CV (PDF)](cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ) [GitHub](https://github.com/tXiao95) [LinkedIn](https://www.linkedin.com/in/thsiao3/) [Email](mailto:thomas.hsiao@emory.edu)
+[CV (PDF)](cv.pdf) [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ) [LinkedIn](https://www.linkedin.com/in/thsiao3/) [GitHub](https://github.com/tXiao95) [Email](mailto:thomas.hsiao@emory.edu)
 :::
 :::
 

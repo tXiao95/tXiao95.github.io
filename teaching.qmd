@@ -5,11 +5,7 @@ include-before-body: _generated/header-teaching.html
 ---
 
 ::: {.page-intro}
-[TEACHING]{.eyebrow}
-
-# Foundations, methods, practice
-
-[My teaching experience spans statistical theory, computing, and applications to public health.]{.lede}
+# TEACHING {.section-title}
 :::
 
 ::: {.prose}

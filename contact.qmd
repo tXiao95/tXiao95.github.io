@@ -5,9 +5,7 @@ include-before-body: _generated/header-contact.html
 ---
 
 ::: {.page-intro}
-[CONTACT]{.eyebrow}
-
-# Get in touch
+# CONTACT {.section-title}
 
 [For research collaborations, academic opportunities, and questions about my work, please contact me by email.]{.lede}
 :::
@@ -15,24 +13,3 @@ include-before-body: _generated/header-contact.html
 ::: {.contact-email}
 [thomas.hsiao@emory.edu](mailto:thomas.hsiao@emory.edu)
 :::
-
-:::: {.contact-details}
-::: {.contact-column}
-## At Emory
-
-Department of Biostatistics\
-Emory University\
-Grace Crum Rollins, Room 270\
-1518 Clifton Road\
-Atlanta, Georgia 30322
-:::
-::: {.contact-column}
-## Elsewhere
-
-- [Google Scholar](https://scholar.google.com/citations?user=5Jnm9BoAAAAJ)
-- [GitHub](https://github.com/tXiao95)
-- [ORCID](https://orcid.org/0009-0005-7848-7992)
-- [LinkedIn](https://www.linkedin.com/in/thsiao3/)
-- [Curriculum vitae (PDF)](cv.pdf)
-:::
-::::
